@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+	<ora id="1" tipus="Előadás">
+		<targy>Algoritmusok vizsgálata</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>8</tol>
+			<ig>10</ig>
+		</idopont>
+		<helyszin>Magas fsz 12</helyszin>
+		<oktato>Dr. Házy Attila</oktato>
+		<szak>Programtervező Informatikus bsc</szak>
+	</ora>
+	<ora id="2" tipus="Gyakorlat">
+		<targy>Algoritmusok vizsgálata</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>Magas fsz 12</helyszin>
+		<oktato>Dr. Házy Attila</oktato>
+		<szak>Programtervező Informatikus bsc</szak>
+	</ora>
+	<ora id="3" tipus="Előadás">
+		<targy>Mesterség Inteligencia</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>12</tol>
+			<ig>15</ig>
+		</idopont>
+		<helyszin>A1 305</helyszin>
+		<oktato>Dr. Dudás László</oktato>
+		<szak>Programtervező Informatikus bsc</szak>
+	</ora>
+	<ora id="4" tipus="Előadás">
+		<targy>Web technolgia</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>15</tol>
+			<ig>17</ig>
+		</idopont>
+		<helyszin>inf 103</helyszin>
+		<oktato>Agárdi Anita</oktato>
+		<szak>Programtervező Informatikus bsc</szak>
+	</ora>
+	<ora id="5" tipus="Gyakorlat">
+		<targy>Web technolgia</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>17</tol>
+			<ig>19</ig>
+		</idopont>
+		<helyszin>inf 101</helyszin>
+		<oktato>Sátán Ádám</oktato>
+		<szak>Programtervező Informatikus bsc</szak>
+	</ora>
+</orarend>

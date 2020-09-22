@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<iskola>
+    <tanar kod="T1">
+        <nev>Szűcs Miklós</nev>
+        <szak>Mérnökinfomatikus</szak>
+    </tanar>
+    <tanar kod="T2">
+        <nev>Szigeti Jenő</nev>
+        <szak>Programtervező informatikus</szak>
+    </tanar>
+    <tantargy kod="O1" oktato="T1">
+        <tnev>Adatbázis 2</tnev>
+        <osztaly>5C</osztaly>
+    </tantargy>
+</iskola>

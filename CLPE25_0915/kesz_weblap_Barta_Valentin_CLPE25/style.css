@@ -1,0 +1,54 @@
+.centerdiv {
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+table {
+    width: 100%;
+}
+
+body {
+    background-image: url(../kepek/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+}
+
+.welcome {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+ul li {
+    color: white;
+}
+
+b {
+    color: white;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+	<dátum>2020.11.21</dátum>
+	<cim>1234 Miskolc Egyetemváros</cim>
+	<helyszín>Miskolci Egyetem</helyszín>
+	<hallgatók>
+		<hallgató id="1">
+			<név>Peti</név>
+			<lakcim>3530 Petőfi Sándor utca 30</lakcim>
+		</hallgató>
+		<hallgató id="2">
+			<név>Károly</név>
+			<lakcim>3512 Móra Ferenc utca 12</lakcim>
+		</hallgató>
+	</hallgatók>
+	<előadó>
+		<név>László</név>
+		<adószám>1234546</adószám>
+		<lakcim>3501 Károly Róbert út 1</lakcim>
+	</előadó>
+</konferencia >
