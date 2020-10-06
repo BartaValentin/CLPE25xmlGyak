@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nevjegykartyak>
+  <nevjegykartya id="1">
+    <nev>Barta Valentin</nev>
+    <ceg>
+      <cim>
+        <iranyitoszam>3508</iranyitoszam>
+        <varos>Miskolc</varos>
+        <utca>Bosch park</utca>
+        <hazszam>4/A</hazszam>
+      </cim>
+      <nev>Bosch</nev>
+      <telefonszam korzet="3214">05356234</telefonszam>
+      <weblap>www.bosch.eu</weblap>
+      <email>boscmagyarorszag@bosch.hu</email>
+    </ceg>
+    <beosztas>Főnök</beosztas>
+    <telefonszam korzet="3234" >06346732</telefonszam>
+    <email>bartavalentin@freemail.hu</email>
+  </nevjegykartya>
+</nevjegykartyak>
