@@ -19,6 +19,7 @@ public class DOMReadClpe25 {
 
 	public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, TransformerException {
 
+			/*XML beolvasás*/
 	       try {
 	   		File xmlFile = new File("src/hu/domparse/Clpe25/XMLCLPE25.xml");
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -44,6 +45,7 @@ public class DOMReadClpe25 {
 		System.out.println("2 modositas");
 		int action = ReadCategory();
 
+		/*1 kategória olvasás 2 kategória módosítás*/
 		switch (action) {
 		case 1:
 			Read(doc);
@@ -60,6 +62,7 @@ public class DOMReadClpe25 {
 
 	public static int ReadCategory() {
 		Scanner scan = new Scanner(System.in);
+		/*Sorszám alapján eldöntöm, hogy hogy melyiket szeretném módosítani*/
 		System.out.print("\nAdja meg a sorszamot:");
 		int readCategory = scan.nextInt();
 		return readCategory;

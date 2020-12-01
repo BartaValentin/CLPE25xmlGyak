@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><data xmlns="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="XMLSchemaCLPE25.xsd">
+	<player id="player1" matchid="match1" positionid="position1" sponsorid="sponsor1">
+		<name>Cristiano Ronaldo</name>
+		<nickname>C. Ronaldo</nickname>
+		<team>Juventus</team>
+		<country>Olaszország</country>
+		<league>Seria A</league>
+	</player>
+	<player id="player2" matchid="match1" positionid="position1" sponsorid="sponsor1">
+		<name>Lionel Messi</name>
+		<nickname>Mesi</nickname>
+		<team>Barcelona</team>
+		<country>Spanyolország</country>
+		<league>La Liga</league>
+	</player>
+	<player id="player3" matchid="match2" positionid="position2" sponsorid="sponsor2">
+		<name>Sami Khedira</name>
+		<nickname>Khedira</nickname>
+		<team>Juventus</team>
+		<country>Olaszország</country>
+		<league>Seria A</league>
+	</player>
+	<player id="player4" matchid="match2" positionid="position2" sponsorid="sponsor2">
+		<name>Jordi Alba</name>
+		<nickname>Jordi Alba</nickname>
+		<team>Barcelona</team>
+		<country>Spanyolország</country>
+		<league>La Liga</league>
+	</player>
+	<player id="player5" matchid="match1" positionid="position1" sponsorid="sponsor2">
+		<name>Karim Benzema</name>
+		<nickname>Benzema</nickname>
+		<team>Real Madrid</team>
+		<country>Spanyolország</country>
+		<league>La Liga</league>
+	</player>
+	<sponsor id="sponsor1">
+		<name>Nike updated</name>
+		<country>Németország</country>
+		<income>1200000</income>
+	</sponsor>
+	<sponsor id="sponsor2">
+		<name>Adidas</name>
+		<country>Németország</country>
+		<income>21500000</income>
+	</sponsor>
+	<sponsor id="sponsor3">
+		<name>Puma</name>
+		<country>Németország</country>
+		<income>301570</income>
+	</sponsor>
+	<sponsor id="sponsor4">
+		<name>Under Armor</name>
+		<country>USA</country>
+		<income>1010000</income>
+	</sponsor>
+	<match id="match1">
+        <location>Torino</location>
+        <fulltime>1-1</fulltime>
+        <halftime>1-2</halftime>
+        <referee>Chakir</referee>
+        <date>
+			<year>2020</year>
+			<month>5</month>
+			<day>4</day>
+		</date>
+	</match>
+	<match id="match2">
+        <location>Barcelona</location>
+        <fulltime>0-0</fulltime>
+        <halftime>3-1</halftime>
+        <referee>Kassai Viktor</referee>
+        <date>
+			<year>2017</year>
+			<month>7</month>
+			<day>9</day>
+		</date>
+	</match>
+	<match id="match3">
+        <location>Madrid</location>
+        <fulltime>1-1</fulltime>
+        <halftime>2-2</halftime>
+        <referee>Marc Edwars</referee>
+        <date>
+			<year>2011</year>
+			<month>12</month>
+			<day>9</day>
+		</date>
+	</match>
+	<position id="position1">
+		<name>Csatár</name>
+	</position>
+	<position id="position2">
+		<name>Szélső</name>
+	</position>
+	<position id="position3">
+		<name>Középpályás</name>
+	</position>
+	<footballteam id="team1">
+		<name>Real Madrid</name>
+		<address>
+			<country>Spanyolország</country>
+			<city>Madrid</city>
+		</address>
+	</footballteam>
+	<footballteam id="team2">
+		<name>Barcelona</name>
+		<address>
+			<country>Spanyolország</country>
+			<city>Barcelona</city>
+		</address>
+	</footballteam>
+	<contract id="contract1" playerid="player1" teamid="team1">
+		<date>
+			<year>2020</year>
+			<month>1</month>
+			<day>5</day>
+		</date>
+		<description>Új szerződés</description>
+	</contract>
+	<contract id="contract2" playerid="player1" teamid="team1">
+		<date>
+			<year>2019</year>
+			<month>7</month>
+			<day>8</day>
+		</date>
+		<description>Szerződés hosszabítás</description>
+	</contract>
+	<contract id="contract3" playerid="player5" teamid="team2">
+		<date>
+			<year>2019</year>
+			<month>7</month>
+			<day>16</day>
+		</date>
+		<description>Új szerződés</description>
+	</contract>
+</data>

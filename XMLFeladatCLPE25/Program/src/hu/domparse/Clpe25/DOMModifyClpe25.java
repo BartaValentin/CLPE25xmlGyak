@@ -27,8 +27,9 @@ public class DOMModifyClpe25 {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
         Transformer transformer = transformerFactory.newTransformer();
         DOMSource source = new DOMSource(doc);
-        StreamResult result = new StreamResult(new File("src/hu/domparse/Clpe25/XMLCLPE25.updated.xml"));
+        StreamResult result = new StreamResult(new File("src/hu/domparse/Clpe25/updated.xml"));
         transformer.transform(source, result);
+        System.out.println("output file elkészült");
 	}
 	
 	public static void UpdatePlayer(Document doc) throws TransformerException {
